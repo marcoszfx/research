@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>MATH</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <br><br>
+    <center>
+    <img src="img/logo.png" alt="imagen" width="200" height="75">
+    </center>
+    <div id="container">
+      <h1>Mathematical Modelling</h1>
+      <nav>
+	<ul>
+	  <li>
+	    <a id="ma" href="heat.html">Heat transfer</a>
+	  </li>
+	  <li>
+	    <a id="a1" href="fluidflow.html">CFD</a>
+	  </li>
+	  <li>
+	    <a id="s1" href="software.html">Free software</a>
+	  </li>
+	</ul>
+      </nav>
+      <aside>
+	<img src="img/SymbolMZF.png" width="200" height="180"
+	     alt="Octave">
+	<h3>Interesting Links</h3>
+	<ul>
+	  <li><a id="doct" href="https://www.britannica.com/science/mathematics/Geometric-and-algebraic-problems">Mathematics</a></li>
+	  <li><a id="doct" href="https://informatecdigital.com/matematicas-en-la-vida-cotidiana">Aplicaciones</a></li>
+	</ul>
+      </aside>
+      <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+      <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]},
+            MathML: {extensions: ["content-mathml.js"]},
+            asciimath2jax: {delimiters: [['`','`']]},
+        });
+      </script>
+      <script>
+    document.addEventListener('DOMContentLoaded', (event) => {
+        MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+    });
+</script>
+    <br>
+    <!-- TEX -->
+    <h2>
+    
+    </h2>
+    <!-- <p id="demo">A paragraph</p> -->
+    <br>
+      <section id="main">
+	<h2>Presentation</h2>
+	
+      </section>
+      <footer>
+	<ul>
+	  <li><a id="duck" href="https://duckduckgo.com/">
+	      DuckDuckgo</a></li>
+	  <li><a id="fsf" href="https://www.fsf.org/es/about">
+	      Free Software Foundation</a></li>
+	  <li><a id="retorno" href="index.html">
+	      Return to main site</a></li>
+	</ul>
+      </footer>
+      
+    </div>
+    
+  </body>
+</html>
+ <!-- <button type="button" onclick="myfunc()">Try it</button> -->

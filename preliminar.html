@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>MATH</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <br><br>
+    <center>
+    <img src="img/logo.png" alt="imagen" width="200" height="75">
+    </center>
+    <div id="container">
+      <h1>Approximations</h1>
+      <aside>
+	<img src="img/SymbolMZF.png" width="200" height="180"
+	     alt="Octave">
+	<h3>Interesting Links</h3>
+	<ul>
+	  <li><a id="doct" href="https://www.britannica.com/science/mathematics/Geometric-and-algebraic-problems">Mathematics</a></li>
+	  <li><a id="doct" href="https://informatecdigital.com/matematicas-en-la-vida-cotidiana">Applications</a></li>
+	</ul>
+      </aside>
+      <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+      <section id="main">
+	<h2>Convergence order</h2>
+	<p>
+	  Two functions f and g can be expressed by
+	  $$
+	  \begin{equation}
+	  f(h) = O(g(h))\quad\text{as}\quad h\to 0,
+	  \end{equation}
+	  $$
+	  if there exists a constant K such that
+	  $$
+	  \begin{equation}
+	  |f(h)| \leq K |g(h)|\quad\text{for all}\quad h\ll 1.
+	  \end{equation}
+	  $$
+	  Example:
+	  $$
+	  \begin{equation}
+	  \sin(h) = O(h)\quad\text{because}\quad
+	  \sin(h) = h - \frac{h^3}{3!} + \cdots
+	  \end{equation}
+	  $$
+	</p>
+      </section>
+      <footer>
+	<ul>
+	  <li><a id="duck" href="https://duckduckgo.com/">
+	      DuckDuckgo</a></li>
+	  <li><a id="fsf" href="https://www.fsf.org/es/about">
+	      Free Software Foundation</a></li>
+	  <li><a id="retorno" href="index.html">
+	      Return to main site</a></li>
+	</ul>
+      </footer>
+      
+    </div>
+    
+  </body>
+</html>
+ <!-- <button type="button" onclick="myfunc()">Try it</button> -->

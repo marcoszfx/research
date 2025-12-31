@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>MATH</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <br><br>
+    <center>
+    <img src="img/logo.png" alt="imagen" width="200" height="75">
+    </center>
+    <div id="container">
+      <h1>Time schemes</h1>
+      <aside>
+	<img src="img/SymbolMZF.png" width="200" height="180"
+	     alt="Octave">
+	<h3>Interesting Links</h3>
+	<ul>
+	  <li><a id="doct" href="https://www.britannica.com/science/mathematics/Geometric-and-algebraic-problems">Mathematics</a></li>
+	  <li><a id="doct" href="https://informatecdigital.com/matematicas-en-la-vida-cotidiana">Applications</a></li>
+	</ul>
+      </aside>
+      <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+      <section id="main">
+	<h2>Second Order differential equation</h2>
+	<p>
+	  For the differential equation depending on space
+	  $$
+	  \begin{equation}
+	  \frac{d^2 T}{dx^2} = f(x)\quad\text{in}\quad 0< x <1
+	  \end{equation}
+	  $$
+	  subject to the boundary condition
+	  $$
+	  \begin{equation}
+	T(0) = \alpha\quad\text{and}\quad T(1) = \beta.
+	  \end{equation}
+	  $$
+	  It can be solved by:
+	  $$
+	  \begin{equation}
+	\frac{w_{k-1}-2w_{k}+w_{k+1}}{h^2} = f(x_k)
+	  \end{equation}
+	$$
+	with
+	$$						      
+	w_1 = \alpha\quad{and}\quad w_N = \beta.
+	$$
+	</p>
+      </section>
+      <footer>
+	<ul>
+	  <li><a id="duck" href="https://duckduckgo.com/">
+	      DuckDuckgo</a></li>
+	  <li><a id="fsf" href="https://www.fsf.org/es/about">
+	      Free Software Foundation</a></li>
+	  <li><a id="retorno" href="index.html">
+	      Return to main site</a></li>
+	</ul>
+      </footer>
+      
+    </div>
+    
+  </body>
+</html>
+ <!-- <button type="button" onclick="myfunc()">Try it</button> -->
